@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formHeading{
+    text-align:center;
+}
+form {
+    /* center the form on the page */
+    margin: 0 auto;
+    width: 30em;
+    /* form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color:rgb(248, 202, 202);
+    box-shadow: 0px 2px 2px 1px chocolate;
+    text-align: center;
+}
+ul{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 0.5em;
+}
+label {
+/* uniform size & alignment */
+display:inline-block;
+width: 100px;
+text-align: right;
+}
+input,
+textarea{
+    /* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
+    font: 1em sans-serif;
+    asd;
+    /* uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+    /* Match form field borders */
+    border: 1px solid rgb(9, 9, 10);
+    resize: none;
+}
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color:black
+    
+
+}
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    padding: 10px;
+    width: 200px;
+    background-color:coral;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+  }
+  button:hover{
+      background-color: rgb(189, 93, 58);
+      cursor: pointer;
+  }
+
+  /* select input option has a fixed length of 300px */
+  input, select {
+      width: 300px;
+      height:30px;
+  }
+  
+  /* Keeping radio buttons on same line */
+  input[type=radio],
+  input.radio {
+      width: auto;
+      position: relative;
+      top: 10px;
+  }
+  input[type=checkbox] {
+      width: auto;
+      position: relative;
+      top: 10px;
+  }
+
+  .agreementText {
+      width: 150px;
+  }
